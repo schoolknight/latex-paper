@@ -1,0 +1,11 @@
+'scopeName': 'text.paper'
+'injectionSelector': 'comment, text.tex'
+'patterns': [
+  {
+    'match': '<(TODO|IDEA|REVIEW|REVISE|REMOVE|ADD|POLISH):?(.*?)>'
+    'name': 'paper.${1:/downcase}'
+    'captures':
+      '2':
+        'name':'paper.${1:/downcase}.papercomment'
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle latex-paper-tool",
+        "command": "latex-paper-tool:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "latex-paper-tool",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "latex-paper-tool:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

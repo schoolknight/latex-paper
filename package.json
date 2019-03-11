@@ -1,0 +1,15 @@
+{
+  "name": "latex-paper-tool",
+  "main": "./lib/latex-paper-tool",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/latex-paper-tool",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
